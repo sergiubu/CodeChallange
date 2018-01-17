@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Yes, I have a title!</title>
+</head>
+<body>
+  <nav class="navbar">
+    <span>
+      <a href="#" onclick="openSideMenu()">
+        <svg width="30" height="30">
+          <path d="M0,5 30,5" stroke="red" stroke-width="5" />
+          <path d="M0,14 30,14" stroke="red" stroke-width="5" />
+          <path d="M0,23 30,23" stroke="red" stroke-width="5" />
+        </svg>
+      </a>
+      <h3>Menu</h3>
+    </span>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div class="img1">
+    <div class="ptext">
+      <span class="border">
+        Hello, I'm Sergiu
+      </span>
+    </div>
+    <div class="scroll">
+  			<span>scroll down</span>
+  			<i class="fa fa-angle-down fa-4x" aria-hidden="true"></i>
+  	</div>
+  </div>
+
+  <section id="boxes" class="section section-light">
+    <div class="container">
+      <div class="box">
+        <img src="./img/logo_html.png">
+        <h3>HTML 5 Markup</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat eros vel orci aliquam pretium. Praesent blandit risus diam, sollicitudin lobortis tortor elementum nec.</p>
+      </div>
+      <div class="box">
+        <img src="./img/logo_css.png">
+        <h3>CSS Styling</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat eros vel orci aliquam pretium. Praesent blandit risus diam, sollicitudin lobortis tortor elementum nec.</p>
+      </div>
+      <div class="box">
+        <img src="./img/logo_brush.png">
+        <h3>Graphic Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat eros vel orci aliquam pretium. Praesent blandit risus diam, sollicitudin lobortis tortor elementum nec.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="img2">
+    <div class="ptext">
+      <span class="border">
+        Something
+      </span>
+    </div>
+  </div>
+
+  <footer>
+    <p>So Much Web Design &copy; 2018</p>
+  </footer>
+
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
